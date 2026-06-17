@@ -22,6 +22,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <provider
+            android:name=".StudentProvider"
+            android:authorities="com.example.contentprovider.provider"
+            android:exported="true" />
     </application>
 
 </manifest>
